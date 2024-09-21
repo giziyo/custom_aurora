@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Custom Idex</name>
+		<update version="0.0.1">
+			<file name="custom.index" url="https://github.com/giziyo/custom_aurora/blob/main/background-wildspacer.xml/custom.index" />
+		</update>
+	</info>
+	<files>
+		<!-- backgrounds -->		
+		<file name="background-wildspacer.xml" url="https://github.com/giziyo/custom_aurora/blob/main/background-wildspacer.xml" />
+	</files>
+</index>
