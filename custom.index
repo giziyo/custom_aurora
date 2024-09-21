@@ -3,7 +3,7 @@
 	<info>
 		<name>Custom</name>
 		<update version="0.0.1">
-			<file name="custom.index" url="https://github.com/giziyo/custom_aurora/edit/main/custom.index" />
+			<file name="custom.index" url="https://raw.githubusercontent.com/giziyo/custom_aurora/refs/heads/main/custom.index" />
 		</update>
 	</info>
 	<files>
