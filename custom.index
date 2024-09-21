@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Custom Idex</name>
+		<name>Custom</name>
 		<update version="0.0.1">
-			<file name="custom.index" url="https://github.com/giziyo/custom_aurora/blob/main/background-wildspacer.xml/custom.index" />
+			<file name="custom.index" url="https://github.com/giziyo/custom_aurora/edit/main/custom.index" />
 		</update>
 	</info>
 	<files>
