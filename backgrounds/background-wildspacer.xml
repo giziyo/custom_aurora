@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wildspacer</name>
+		<description>Wildspacer Background</description>
+		<author url="http://marketplace.dndbeyond.com/category/spelljammer-adventures-in-space">Wizards of the Coast</author>
+		<update version="0.0.5">
+			<file name="background-wildspacer.xml" url="https://raw.githubusercontent.com/giziyo/custom_aurora/refs/heads/main/background-wildspacer.xml"/>
+		</update>
+	</info>
+
+	<element name="Urchin" type="Background" source="Astral Adventurer's Guide" id="ID_BACKGROUND_WILDSPACER">
+		<description>
+			<p>You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral (described in chapter 3), or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.</p>
+			<p class="indent">Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Athletics, Survival</li>
+				<li><strong>Tool Proficiencies:</strong> Navigator's tools, vehicles (space)</li>
+				<li><strong>Equipment:</strong> A belaying pin (club), a set of traveler's clothes, a grappling hook, 50 feet of hempen rope, and a pouch containing 10 gp</li>
+			</ul>
+			<div element="ID_BACKGROUND_FEATURE_WILDSPACE_ADAPTATION" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Wildspacers are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life— and maybe get some payback on all the rich people who treated them badly.</p>
+		</description>
+		<setters>
+			<set name="short">Athletics, Survival, Disguise Kit, Thieves’ Tools</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE" />
+			<grant type="Background Feature" id="ID_BACKGROUND_WILDSPACE_ADAPTATION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			
+		</rules>
+	</element>
+	
+	<element name="Feature: Wildspace Adaptation" type="Background Feature" source="Astral Adventurer's Guide" id="ID_BACKGROUND_FEATURE_WILDSPACE_ADAPTATION">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You gain the Tough feat from the Player's Handbook. In addition, you learned how to adapt to zero gravity. Being weightless doesn't give you disadvantage on any of your melee attack rolls (see "Weightlessness" in chapter 2).</p>
+		</description>
+		<sheet alt="Wildspace Adaptation" />
+	</element>
+</elements>
