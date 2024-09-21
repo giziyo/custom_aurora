@@ -8,6 +8,6 @@
 	</info>
 	<files>
 		<!-- backgrounds -->		
-		<file name="background-wildspacer.xml" url="https://github.com/giziyo/custom_aurora/blob/main/background-wildspacer.xml" />
+		<file name="background-wildspacer.xml" url="https://raw.githubusercontent.com/giziyo/custom_aurora/refs/heads/main/background-wildspacer.xml" />
 	</files>
 </index>
