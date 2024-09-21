@@ -5,7 +5,7 @@
 		<description>Wildspacer Background</description>
 		<author url="http://marketplace.dndbeyond.com/category/spelljammer-adventures-in-space">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="background-wildspacer.xml" url=""/>
+			<file name="background-wildspacer.xml" url="https://github.com/giziyo/custom_aurora/blob/main/background-wildspacer.xml"/>
 		</update>
 	</info>
 
