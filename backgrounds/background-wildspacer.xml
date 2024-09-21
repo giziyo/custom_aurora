@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Urchin" type="Background" source="Astral Adventurer's Guide" id="ID_BACKGROUND_WILDSPACER">
+	<element name="Wildspacer" type="Background" source="Astral Adventurer's Guide" id="ID_BACKGROUND_WILDSPACER">
 		<description>
 			<p>You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral (described in chapter 3), or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.</p>
 			<p class="indent">Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.</p>
